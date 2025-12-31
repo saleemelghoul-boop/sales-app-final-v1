@@ -1,14 +1,1 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
-}
-
-export default nextConfig
+"لقد فشل الرفع بسبب خطأ في next.config.mjs. يرجى حذف خيار eslint من ملف الإعدادات لأنه غير مدعوم في إصدار Next.js 16.1.1 ويسبب فشل الـ Build. بعد الحذف، يرجى عمل Commit و Push لنتمكن من إتمام الرفع بنجاح."
